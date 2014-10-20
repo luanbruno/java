@@ -11,7 +11,7 @@ public class ArrayMultidi {
 		{"Sandra", "F", "MG"}}; // array com dua dimenção
 		System.out.println(duas[0][0]); //recuperar ricardo
 		System.out.println(duas[1][0]); //recuperar sandra
-		
+		as
 		duas[1][0] = "SANDRA";
 		
 		System.out.println(duas[1][0]);
