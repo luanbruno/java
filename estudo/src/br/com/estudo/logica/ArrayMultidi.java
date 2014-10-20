@@ -11,9 +11,9 @@ public class ArrayMultidi {
 		{"Sandra", "F", "MG"}}; // array com dua dimenção
 		System.out.println(duas[0][0]); //recuperar ricardo
 		System.out.println(duas[1][0]); //recuperar sandra
-		
+		System.out.println(duas[0].length);
 		duas[1][0] = "SANDRA";
-		
+		System.out.println(duas[0].length);System.out.println(duas[0].length);
 		System.out.println(duas[1][0]);
 		System.out.println(duas.length); // quantos elementos tem no array
 		System.out.println(duas[0].length); //quantos elementos tem dentro do array interno
